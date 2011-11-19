@@ -2,6 +2,8 @@ import junit.framework.*;
 
 public class GameTest extends TestCase {
 
+
+
 	public GameTest(String s) {super(s);}
 
 	public void testDefaultMove() {
