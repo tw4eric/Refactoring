@@ -9,8 +9,6 @@ public class Game {
 		board.setCharAt(position, player);
 	}
 
-
-
 	public int move(char player) {
 		for (int i = 0; i < 9; i++) {
 			if (board.charAt(i) == '-') {
